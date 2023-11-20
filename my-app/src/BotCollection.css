@@ -1,0 +1,35 @@
+.YourBotArmy {
+    width: 45%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add margin for separation */
+  }
+  h2 {
+    color: #333;
+  }
+  ol {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+/* Responsive design for small screens */
+@media only screen and (max-width: 768px) {
+    .YourBotArmy {
+      width: 100%;
+    }
+  }
